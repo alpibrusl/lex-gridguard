@@ -1,7 +1,7 @@
 [package]
 name    = "lex-gridguard"
 version = "0.1.0"
-lex     = "0.10.11"
+lex     = "0.10.12"
 
 # Capability-gated grid commands: an agent may curtail THIS asset, by at most
 # THIS much, inside THIS window, under THIS contract — and nothing else.
