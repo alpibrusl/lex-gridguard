@@ -1,0 +1,13 @@
+[package]
+name    = "lex-gridguard"
+version = "0.1.0"
+lex     = "0.10.11"
+
+# Capability-gated grid commands: an agent may curtail THIS asset, by at most
+# THIS much, inside THIS window, under THIS contract — and nothing else.
+# Checked before the command reaches the charge point, attested either way.
+
+[dependencies]
+lex-schema = { git = "https://github.com/alpibrusl/lex-schema" }
+lex-crypto = { git = "https://github.com/alpibrusl/lex-crypto" }
+lex-trail  = { git = "https://github.com/alpibrusl/lex-trail" }
